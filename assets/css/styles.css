@@ -4,6 +4,13 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
+}
 
 /* Header Rules */
 
@@ -91,7 +98,55 @@ header {
 	background-color: #525252;
 }
 
+/* Footer */
 
+footer {
+	background-color: #525252;
+	color: #fafafa;
+	min-height: 120px;
+	margin: 0;
+}
+#footer-details {
+	margin: 20px;
+}
+.general-sub {
+	font-weight: 300;
+}
+.inline-block {
+	display: inline-block;
+}
+footer .cv-pdf i {
+	color: #fafafa;
+	text-align: center;
+	font-size: 18px;
+	padding-left: 5px;
+}
+footer .cv-pdf i:hover {
+	color: #c84610;
+	transition: all .35s ease-in-out;
+	-moz-transition: all .35s ease-in-out;
+	-webkit-transition: all .35s ease-in-out;
+}
+.social-links {
+	padding-bottom: 15px;
+}
+.social-links li a i {
+	width: 32px;
+	height: 32px;
+	padding: 12px 0;
+	border-radius: 50%;
+	font-size: 13px;
+	line-height: 7px;
+	text-align: center;
+	color: #fafafa;
+	background-color: #8f8f8f;
+	transition: all .35s ease-in-out;
+	-moz-transition: all .35s ease-in-out;
+	-webkit-transition: all .35s ease-in-out;
+}
+.social-links li a i:hover {
+	background: #c84610;
+}
 
 
 
