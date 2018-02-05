@@ -14,7 +14,11 @@
 /* lg Screens */
 
 @media (min-width: 968px) {
-  
+	.section-column {
+	padding: 0 30px 30px;
+	float: none;
+	display: table-cell;
+}  
 }
 
 /* xl Screens */
