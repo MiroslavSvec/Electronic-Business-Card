@@ -3,7 +3,12 @@
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	background-color: #525252;
+	background: url("../files/1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+
+/*	background-color: #525252; */
 }
 h1,
 h2,
@@ -11,12 +16,12 @@ h3,
 h4,
 h5 {
 	margin: 0;
+	font-weight: 700;
 }
 .row-table {
 	display: table;
 }
 .section-heading {
-	font-weight: 500;
 	margin-top: 25px;
 	margin-bottom: 40px;
 }
@@ -28,6 +33,7 @@ header {
 }
 .logo {
 	background: url("../files/1.png");
+	background-color: #fff;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;	
@@ -36,9 +42,15 @@ header {
 	-moz-transition: all .5s ease-in-out;
 	-webkit-transition: all .5s ease-in-out;
 }
+
+/*
+
 .bg-color-name-title {
 	background-color: #676767;
 }
+
+*/
+
 .heading {
 	margin-left: 50px;
 }
@@ -93,6 +105,9 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 }
+
+
+
 .home {
 	background-color: #e67e22;
 }
@@ -105,6 +120,8 @@ header {
 .cv {
 	background-color: #525252;
 }
+
+
 
 /* 3 reasons to hire me */
 
@@ -211,10 +228,41 @@ header {
 	background-color: rgba(25, 25, 25, 0.2)
 }
 
+/* Contact Section */
+
+.bg-color-contact {
+	background-color: #fff;
+}
+.contact-heading {
+	margin: 25px 0;
+}
+.centre-form {
+	padding-top: 10px;
+	margin: 0 auto;
+	max-width: 70%;
+}
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	min-height: 50px;
+	background-color: #e0dfdf;
+	border: 0;
+}
+button[type="submit"] {
+	margin-top: 20px;
+	margin-bottom: 25px;
+	background-color: #e84610;
+	color: #fafafa;
+}
+
+
+
 /* Footer */
 
 footer {
-	background-color: #525252;
+
+/*	background-color: #525252; */
+
 	color: #fafafa;
 	min-height: 120px;
 	margin: 0;

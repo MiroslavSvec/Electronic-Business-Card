@@ -15,9 +15,15 @@
 
 @media (min-width: 968px) {
 	.section-column {
-	padding: 0 30px 30px;
-	float: none;
-	display: table-cell;
+		padding: 0 30px 30px;
+		float: none;
+		display: table-cell;
+}
+	.centre-form {
+		padding-top: 30px;
+		min-height: 240px;
+		margin: 0 auto;
+		max-width: 50%;
 }  
 }
 
