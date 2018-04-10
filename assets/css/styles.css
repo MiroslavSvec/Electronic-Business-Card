@@ -308,7 +308,11 @@ footer .cv-pdf i:hover {
 .social-links li a i:hover {
 	background: #c84610;
 }
+/* Interest section */
 
+#map {
+	min-height: 300px;
+}
 
 
 /* Not in use *

@@ -1,2 +1,1 @@
-# Electronic-Business-Card
-My Electronic Business Card
+# Interactive Frontend Development Mini-Project
